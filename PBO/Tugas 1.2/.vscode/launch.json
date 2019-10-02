@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Tugas_12_PBO",
+            "request": "launch",
+            "mainClass": "Tugas_12_PBO"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Tugas_1",
+            "request": "launch",
+            "mainClass": "Tugas_1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Tugas",
+            "request": "launch",
+            "mainClass": "Tugas"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoVariable",
+            "request": "launch",
+            "mainClass": "DemoVariable"
+        }
+    ]
+}

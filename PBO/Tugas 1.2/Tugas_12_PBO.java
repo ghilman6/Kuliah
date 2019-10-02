@@ -1,5 +1,5 @@
 import java.util.Scanner; 
-public class DemoVariable{
+public class Tugas_12_PBO{
     public static void main(String[] args) {
         //Deklarasikan Variable
         //No 4 & 5
