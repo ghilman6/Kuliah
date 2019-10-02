@@ -3,8 +3,8 @@ public class Tugas_12_PBO{
     public static void main(String[] args) {
         //Deklarasikan Variable
         //No 4 & 5
-/*     
-         int a=5;
+/*   
+        int a=5;
         int b=3;
         int c=a/b;
         float d= (float)a/(float)b;
@@ -66,19 +66,16 @@ public class Tugas_12_PBO{
         s=j+v*t+((g*(t*t))/2);
     System.out.println(s);
 */
-
 //No 6 B
 /*   
         g=4*(Math.PI*Math.PI)*(a*a*a)/(p*p)*((m1+m2));
     System.out.println(g);
 */
-
 //No 6 C
  /*       
         fv=pv*Math.pow(1 + inte / 100 , yrs);
     System.out.println(fv);
 */
-
 //No 6 D
 /*
         c=Math.sqrt((a*a)+(b*b)-2*(a*b)*Math.cos(x));
@@ -90,12 +87,12 @@ public class Tugas_12_PBO{
         int baris, kolom;
         
         System.out.print("Baris : ");
-        a = masuk.nextInt();
+        baris = masuk.nextInt();
         
         System.out.print("Kolom : ");
-        b = masuk.nextInt();
+        kolo, = masuk.nextInt();
         
-        if ((a+b)%2 == 0){
+        if ((baris+kolom)%2 == 0){
             System.out.println("Hitam");
         }else{
             System.out.println("Putih");
