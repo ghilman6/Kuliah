@@ -15,7 +15,8 @@ public class DemoVariable{
      System.out.println("Nilai  b "+b);
      System.out.println("Nilai  c "+c);
      System.out.println("Nilai  d "+d);
-     System.out.println("Nilai  f "+f);*/
+     System.out.println("Nilai  f "+f);
+*/
     
      double s,j,v,g,t,m1,m2,p,a,pv,inte,yrs,fv,c,x,b;
      Scanner masuk = new Scanner(System.in);
@@ -83,5 +84,22 @@ public class DemoVariable{
         c=Math.sqrt((a*a)+(b*b)-2*(a*b)*Math.cos(x));
     System.out.println(c);
 */
+    
+//No 7 
+
+        int baris, kolom;
+        
+        System.out.print("Baris : ");
+        a = masuk.nextInt();
+        
+        System.out.print("Kolom : ");
+        b = masuk.nextInt();
+        
+        if ((a+b)%2 == 0){
+            System.out.println("Hitam");
+        }else{
+            System.out.println("Putih");
+        }
+
     }
 }
