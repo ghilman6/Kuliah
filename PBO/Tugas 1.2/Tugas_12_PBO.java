@@ -83,7 +83,7 @@ public class Tugas_12_PBO{
 */
     
 //No 7 
-
+/*
         int baris, kolom;
         
         System.out.print("Baris : ");
@@ -97,6 +97,6 @@ public class Tugas_12_PBO{
         }else{
             System.out.println("Putih");
         }
-
+*/
     }
 }

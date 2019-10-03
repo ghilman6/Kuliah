@@ -2,9 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - DemoVariable",
+            "name": "CodeLens (Launch) - DemoBankAccount",
             "request": "launch",
-            "mainClass": "DemoVariable"
+            "mainClass": "DemoBankAccount"
         }
     ]
 }
