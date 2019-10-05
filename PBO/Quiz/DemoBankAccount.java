@@ -21,6 +21,8 @@ public class DemoBankAccount{
         b1.transfer(100, b2);
         b2.print();
         b1.print();
+        b2.setName("oko");
+        b2.print();
     
     }
 

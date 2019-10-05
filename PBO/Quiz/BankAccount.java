@@ -14,7 +14,6 @@ public class BankAccount {
     }
     //4 overload constructor
     public void setName(String nama) {
-        this.balance = 0;
         this.accountName = nama;
     }
     
@@ -28,7 +27,7 @@ public class BankAccount {
         return this.accountName;
     }
     //3 method print detail
-    void print(){
+     public void print(){
         System.out.println("-------Akun-----");
         System.out.println("Name = "+ this.accountName);
         System.out.println("saldo = "+ this.balance);
