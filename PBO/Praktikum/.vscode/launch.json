@@ -2,6 +2,25 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - yu",
+            "request": "launch",
+            "mainClass": "yu",
+            "projectName": "Praktikum_8c3a6bb0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Praktikum2",
+            "request": "launch",
+            "mainClass": "Praktikum2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tugas02",
+            "request": "launch",
+            "mainClass": "tugas02"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - praktikum3",
             "request": "launch",
             "mainClass": "praktikum3"
