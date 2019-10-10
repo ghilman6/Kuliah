@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - praktikum3",
+            "request": "launch",
+            "mainClass": "praktikum3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - java",
+            "request": "launch",
+            "mainClass": "java"
+        }
+    ]
+}

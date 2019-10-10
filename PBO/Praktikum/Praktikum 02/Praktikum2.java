@@ -16,7 +16,7 @@ public class Praktikum2{
     }
     */
     //do
-    /*
+    /*    
     do{
         System.out.println("Ini looping ke "+a); 
         a++;

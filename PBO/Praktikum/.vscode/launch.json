@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Tugas_12_PBO",
+            "request": "launch",
+            "mainClass": "Tugas_12_PBO",
+            "projectName": "Praktikum_8c3a6bb0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - java",
+            "request": "launch",
+            "mainClass": "java",
+            "projectName": "Praktikum_8c3a6bb0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - u",
+            "request": "launch",
+            "mainClass": "u",
+            "projectName": "Praktikum_8c3a6bb0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - yu",
             "request": "launch",
             "mainClass": "yu",

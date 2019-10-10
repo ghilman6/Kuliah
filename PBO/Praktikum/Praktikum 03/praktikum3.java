@@ -12,6 +12,7 @@ public class praktikum3{
                         "\n Warna Hewan = " + kucing.warna );
     
     kucing.suara("Meooong");
+    
     String makananan= kucing.makanan("jaka");
 
     System.out.println(makananan);
