@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demomobil",
+            "request": "launch",
+            "mainClass": "Demomobil"
+        }
+    ]
+}
