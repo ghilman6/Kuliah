@@ -3,6 +3,12 @@ public class mobil{
     private String merek;
     private int cc;
 
+    public mobil(String jenis, String merek, int cc){
+        this.jenis=jenis;
+        this.merek = merek;
+        this.cc = cc;
+    }
+
     public void inJenis(String jenis) {
         this.jenis = jenis;
     }
