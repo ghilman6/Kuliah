@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pendataanMain",
+            "request": "launch",
+            "mainClass": "pendataanMain"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContohMain",
+            "request": "launch",
+            "mainClass": "ContohMain"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demomobil",
+            "request": "launch",
+            "mainClass": "Demomobil"
+        }
+    ]
+}
