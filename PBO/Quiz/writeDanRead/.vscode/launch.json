@@ -5,12 +5,6 @@
             "name": "CodeLens (Launch) - BacaFile",
             "request": "launch",
             "mainClass": "BacaFile"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - DemoBankAccount",
-            "request": "launch",
-            "mainClass": "DemoBankAccount"
         }
     ]
 }
