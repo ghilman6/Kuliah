@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let status = "";
+            let nilai = 83;
+            if(nilai <= 50){
+                status = "Tidak Lulus HAHAHA!";
+            }
+            else{
+                status = "Cie Lulus!";
+            }
+
+            var grade = "";
+            if(nilai >= 0 && nilai <= 15){
+                grade = "E";
+            }
+            else if(nilai >= 16 && nilai <= 45){
+                grade = "D";
+            }
+            else if(nilai >= 46 && nilai <= 59){
+                grade = "C";
+            }
+            else if(nilai >= 60 && nilai <= 79){
+                grade = "B";
+            }
+            else if(nilai >= 81 && nilai <= 100){
+                grade = "A";
+            }
+            else{
+                grade = "Tidak Ada";
+            }
+
+            var hasil;
+            switch (grade) {
+                case "A":
+                    hasil = "MANTAP JIWA!";
+                break;
+                case "B":
+                    hasil = "MANTAP DOANG!";
+                break;
+                case "C":
+                    hasil = "LEH UGHA";
+                break;
+                case "D":
+                    hasil = "Buruk";
+                break;
+                case "E":
+                    hasil = "Buruk Rupa!";
+                break;
+            }
+
+            document.write("<p>Nilai : " + nilai + "</p>");
+            document.write("<p>Status : " + status + "</p>");
+            document.write("<p>Grade : " + grade + "</p>");
+            document.write("<p>Hasil : " + hasil + "</p>");
+        </script>
+    </body>
+</html>
