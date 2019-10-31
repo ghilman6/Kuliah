@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+        var length = 16; //NUMBER
+        var cars = ["sab","volvo"] // Array
+        var firstName ="John"; //String
+        var lastName = "Doe";
+        var person = {
+            fullName: function(){return this.firstName + " " + this.lastName},
+            age:50,
+            eyeColor:"blue",
+        }
+        // akses data variable
+        document.write("<p> Length = "+length+"<p>");
+        document.write("<p> last Name = "+lastName+"<p>");
+        document.write("<p> Cars = "+cars[1]+"<p>");
+        document.write("<p> Full Name = "+person.fullName()+"<p>");
+
+        // replace data array
+        cars[1]="honda";
+        document.write("<p> Cars = "+cars[1]+"<p>");
+
+        //Menambah kan data pada array
+        cars.push("mersy");
+        document.write("<p>Cetak seluruh data cars : "+ cars.toString()+"<p>")
+        </script>
+    </body>
+</html>
